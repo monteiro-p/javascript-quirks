@@ -1,6 +1,69 @@
 <!DOCTYPE html>
 <html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - JavaScript: Pass-by-reference or Pass-by-value</title>
+  <link rel='stylesheet' href='https://codepen.io/nullobject/pen/XWxRBW.css'><link rel="stylesheet" href="./style.css">
 
-<a href="https://www.w3schools.com">Visit W3Schools</a>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>Pass-by-reference or Pass-by-value</h1>
 
+<br>
+
+<h3>Exercise 1</h3>
+<p>
+  a = 1
+  <br><br>
+  b = a
+  <br><br>
+  a = 2
+  <br><br>
+  <label for="inputEx1">b =</label>
+  <input type="text" id="inputEx1" name="inputEx1" class="">
+  <br><br>
+  <button id="btnSubmitEx1" onclick="submitAnswer('inputEx1')">Submit Answer</button>
+  <button id="btnEx1" onclick="showOrHideAnswer(this, 'inputEx1')">Show Answer</button>
+</p>
+
+<br>
+
+<h3>Exercise 2</h3>
+<p>
+  a = { 'x': 1 }
+  <br><br>
+  b = a
+  <br><br>
+  a = { 'x': 2 }
+  <br><br>
+  <label for="inputEx2">b =</label>
+  <input type="text" id="inputEx2" name="inputEx2" class="">
+  <br><br>
+  <button id="btnSubmitEx2" onclick="submitAnswer('inputEx2')">Submit Answer</button>
+  <button id="btnEx2" onclick="showOrHideAnswer(this, 'inputEx2')">Show Answer</button>
+</p>
+
+<br>
+
+<h3>Exercise 3</h3>
+<p>
+  a = { 'x': 1 }
+  <br><br>
+  b = a
+  <br><br>
+  a.x = 2
+  <br><br>
+  <label for="inputEx3">b =</label>
+  <input type="text" id="inputEx3" name="inputEx3" class="">
+  <br><br>
+  <button id="btnSubmitEx3" onclick="submitAnswer('inputEx3')">Submit Answer</button>
+  <button id="btnEx3" onclick="showOrHideAnswer(this, 'inputEx3')">Show Answer</button>
+</p>
+
+<!--<p><button onclick="conclusionEx1()">Conslusion</button></p>-->
+<!-- partial -->
+  <script src='https://codepen.io/nullobject/pen/XWxRBW.js'></script><script  src="./script.js"></script>
+
+</body>
 </html>
